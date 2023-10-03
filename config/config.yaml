@@ -1,0 +1,6 @@
+config:
+  # Global
+  branch: null
+  http_user: www-data
+  sub_directory: app
+  composer_options: --verbose --prefer-dist --no-progress --no-interaction --optimize-autoloader

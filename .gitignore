@@ -1,0 +1,7 @@
+.env
+/vendor
+/bin/*
+/staging.rightsflow.fr
+/www.rightsflow.fr
+
+.idea

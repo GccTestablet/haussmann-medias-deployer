@@ -1,0 +1,10 @@
+{
+    "require": {
+        "php": ">=8.2",
+        "deployer/deployer": "^7.3",
+        "symfony/dotenv": "^6.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
