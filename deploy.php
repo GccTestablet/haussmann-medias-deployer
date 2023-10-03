@@ -58,7 +58,6 @@ task('what_branch', function () {
 task('yarn:build', function () {
     cd('{{release_path}}');
     run('bin/phing yarn_build');
-    run('bin/phing dump_js_routing');
 });
 
 # Hooks
