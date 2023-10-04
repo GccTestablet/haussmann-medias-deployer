@@ -1,0 +1,12 @@
+before:
+  deploy: what_branch
+
+after:
+  # Build
+  deploy:prepare: deploy:copy_dirs
+  deploy:vendors: yarn:install
+  yarn:install: yarn:build
+  yarn:build: database:migrate
+
+  deploy:failed:
+    - deploy:unlock

@@ -1,0 +1,7 @@
+hosts:
+  prod:
+    hostname: www.rightsflow.fr
+    local: true
+  staging:
+    hostname: staging.rightsflow.fr
+    local: true
